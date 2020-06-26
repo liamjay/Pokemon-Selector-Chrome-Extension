@@ -1,0 +1,70 @@
+{
+    "name": "chrome-extension-pokemon-selector",
+    "version": "1.0.0",
+    "description": "Chrome Extension to find and copy a specific Pokemon to the clipboard",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Liam Jay <liam.jay@hansencx.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/enzyme": "^3.1.10",
+        "@types/jest": "^22.2.3",
+        "@types/react": "^16.0.36",
+        "@types/react-dom": "^16.0.3",
+        "@types/react-redux": "^5.0.14",
+        "@types/react-router-dom": "^4.2.3",
+        "@types/redux": "^3.6.0",
+        "@types/superagent": "^3.5.7",
+        "@types/superagent-no-cache": "^0.1.1",
+        "awesome-typescript-loader": "^3.4.1",
+        "css-loader": "^0.28.9",
+        "enzyme": "^3.3.0",
+        "enzyme-adapter-react-16": "^1.1.1",
+        "file-loader": "^1.1.11",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^2.30.1",
+        "jest": "^22.4.3",
+        "node-sass": "^4.7.2",
+        "react-test-renderer": "^16.3.2",
+        "sass-loader": "^6.0.6",
+        "source-map-loader": "^0.2.3",
+        "style-loader": "^0.20.1",
+        "tslint": "^5.9.1",
+        "typescript": "^2.7.1",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.1"
+    },
+    "dependencies": {
+        "bootstrap": "^4.0.0",
+        "bootswatch": "^4.0.0",
+        "font-awesome": "^4.7.0",
+        "fontawesome": "^4.7.2",
+        "immutable": "^3.8.2",
+        "jquery": "^3.3.1",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-redux": "^5.0.6",
+        "react-router-dom": "^4.2.2",
+        "redux": "^3.7.2",
+        "uninstall": "0.0.0"
+    },
+    "jest": {
+        "setupFiles": [
+            "<rootDir>/test-shim.js",
+            "<rootDir>/test-setup.js"
+        ],
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ],
+        "transform": {
+            "^.+\\.(ts|tsx)$": "<rootDir>/test-preprocessor.js"
+        },
+        "testMatch": [
+            "**/test/**/*.(ts|tsx|js)"
+        ]
+    }
+}

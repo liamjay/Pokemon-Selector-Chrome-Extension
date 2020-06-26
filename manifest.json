@@ -1,0 +1,24 @@
+{
+    "name": "Pokemon Selector",
+    "version": "1.0",
+    "description": "Find and select a Pokemon that will be automatically copied to the clipboard",
+    "permissions": [
+        "activeTab"
+    ],
+    "page_action": {
+        "default_popup": "dist/index.html",
+        "default_icon": {
+            "16": "ico/pokemon16.png",
+            "32": "ico/pokemon32.png",
+            "64": "ico/pokemon64.png",
+            "128": "ico/pokemon128.png"
+        }
+    },
+    "icons": {
+        "16": "ico/pokemon16.png",
+        "32": "ico/pokemon32.png",
+        "64": "ico/pokemon64.png",
+        "128": "ico/pokemon128.png"
+    },
+    "manifest_version": 2
+}
